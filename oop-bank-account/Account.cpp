@@ -1,5 +1,5 @@
 /***********************************************************************
-// OOP244 Workshop 4 lab: Account Module
+// Account Module
 //
 // File	Account.cpp
 // Date	2025/06/03

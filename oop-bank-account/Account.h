@@ -1,7 +1,8 @@
 /***********************************************************************
-// OOP244 Workshop 4 lab: Account Module
+// Account Module
 //
 // File	Account.h
+// Date	2025/06/03
 // Author Risa Hanada
 ***********************************************************************/
 #ifndef SENECA_ACCOUNT_H_
