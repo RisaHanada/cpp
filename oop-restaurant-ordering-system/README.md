@@ -12,3 +12,9 @@ The application is structured into six modules: each responsible for a specific 
 ・**Drink** – A derived class representing drink items, supporting different container sizes.  
 ・**Ordering** – Coordinates the ordering process, manages selected items, calculates totals, and generates bill files.  
 ・**main** – Launches the application and provides the user interface for waitstaff.
+
+## How to Run the Code
+```
+g++ *.cpp -o ordering 
+./ordering
+```
