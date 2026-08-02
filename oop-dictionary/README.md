@@ -30,5 +30,5 @@ This project demonstrates object‑oriented design, dynamic memory management, f
 ## How to Run the Code
 ```
 g++ *.cpp -o dictionary
-./dictionary
+./dictionary english_large.csv
 ```
