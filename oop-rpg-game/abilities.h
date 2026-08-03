@@ -1,6 +1,6 @@
 /***********************************************************************
-// Utils Module
-// File	Utils.h
+// abilities Module
+// File	abilities.h
 // Date	2026/02/10
 // Author Fardad
 // This module contains the logic of some special abilitites that a character can have in the game.
