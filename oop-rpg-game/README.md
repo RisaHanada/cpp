@@ -9,6 +9,8 @@ Players can choose different character classes, each equipped with unique weapon
 - Archer - Ranged fighter using seneca::SuperHealth with single weapon.
 - Rogue - Agile fighter with two abilities and a dagger.
 
+  ![structure](characters.png)
+
 ## Modules
 
 - **Team** – (Composition) Manages a dynamic array of Character*  
