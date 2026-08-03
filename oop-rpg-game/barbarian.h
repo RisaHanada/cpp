@@ -42,7 +42,7 @@ namespace seneca {
 			CharacterTpl<T>(name, healthMax), m_baseDefense(baseDefense), m_baseAttack(baseAttack), m_ability(), m_weapon{ primaryWeapon, secondaryWeapon } {}
 
         /*
-        returns the damage that character can do in an attack, using the formula:
+        Returns the damage that character can do in an attack, using the formula:
         base attack + weapon1 damage + weapon2 damage
         Weapon damage is retrieved via static_cast<double>.
 		*/
@@ -53,14 +53,14 @@ namespace seneca {
 		}
 
         /*
-        return the base defense value
+        Returns the base defense value
         */
 		int getDefenseAmnt() const override {
 			return m_baseDefense;
 		}
 
         /*
-        dynamically creates a copy of the current instance and returns its address to the client
+        Dynamically creates a copy of the current instance and returns its address to the client
         */
 		Character* clone() const override {
 			Character* temp = new Barbarian(*this);
@@ -68,7 +68,7 @@ namespace seneca {
 		}
 
         /*
-        attacks the enemy received as parameter and inflicts damage to it
+        Attacks the enemy received as parameter and inflicts damage to it
         1. Print attack message.
         2. Activate ability effects on self via useAbility().
         3. Compute base attack damage.
